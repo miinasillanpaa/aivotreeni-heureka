@@ -129,11 +129,29 @@ header {
   width: 100%;
 }
 
-
-
 /* Custom page footer */
 .footer {
   padding-top: 19px;
   color: #777;
   border-top: 1px solid #e5e5e5;
+}
+
+.col-xs-12 {
+  margin-bottom: 50px;
+}
+
+@media (max-width: 768px) {
+  .image-button-block {
+    padding-bottom: 0 !important;
+
+    img {
+      max-width: none !important;
+      width: 100%;
+    }
+    button {
+      max-width: none !important;
+      width: 100%;
+    }
+  }
+
 }
