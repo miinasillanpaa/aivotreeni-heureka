@@ -28,7 +28,7 @@ section{
 }
 
 section.gray{
-  background-color: #ddd; //#4C4C4C;
+  background-color: whitesmoke; //#4C4C4C;
   // color: #fff;
 }
 
@@ -87,7 +87,7 @@ header {
     cursor: pointer;
     padding-bottom: 30px;
     img {
-      max-width: 400px;
+      max-width: 500px;
       border: 7px solid #5bc0de;
       border-bottom-left-radius: 0;
       border-bottom-right-radius: 0;
@@ -97,7 +97,7 @@ header {
       color: #fff;
       text-shadow: 1px 1px 1px #000;
       position: relative;
-      max-width: 400px;
+      max-width: 500px;
       margin-top: -10px;
       z-index: 999;
       border-top-left-radius: 0;
