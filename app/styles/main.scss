@@ -76,10 +76,23 @@ header {
   }
   .btn-impulssi {
     margin-top: 10px;
+    margin-bottom: 25px;
+    width: 100%;
+    font-size: 2.2em;
+    border-radius: 12px;
     color: #fff;
     background-color: #F87814;
+    height: 75px;
+    text-shadow: 1px 1px 1px #000;
     &:hover {
       background-color: #C26227;
+    }
+  }
+
+  .badges img{
+    
+    &:hover{
+      opacity: 0.9;
     }
   }
 
