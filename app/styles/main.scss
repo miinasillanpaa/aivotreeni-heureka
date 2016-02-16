@@ -3,6 +3,7 @@ $icon-font-path: "../bower_components/bootstrap-sass/assets/fonts/bootstrap/";
 // bower:scss
 @import "bower_components/bootstrap-sass/assets/stylesheets/_bootstrap.scss";
 // endbower
+$mssBlue: #002366;
 $mssGold: #d2ac2b;
 
 .browsehappy {
@@ -14,6 +15,7 @@ $mssGold: #d2ac2b;
 
 body {
   width: 100%;
+  font-size: 160%;
 }
 
 .main-container {
@@ -50,8 +52,8 @@ header {
   display: block;
   height: 125px;
   background-color: #fff;
-  border-top: 7px solid #002366;
-  border-bottom: 4px solid #002366;
+  border-top: 7px solid $mssBlue;
+  border-bottom: 4px solid $mssBlue;
 
   a {
     text-decoration: none;
@@ -90,7 +92,7 @@ header {
   }
 
   .badges img{
-    
+
     &:hover{
       opacity: 0.9;
     }
@@ -101,7 +103,7 @@ header {
     padding-bottom: 30px;
     img {
       max-width: 500px;
-      border: 7px solid #5bc0de;
+      border: 7px solid $mssBlue;
       border-bottom-left-radius: 0;
       border-bottom-right-radius: 0;
       text-align: center;
@@ -117,20 +119,22 @@ header {
       border-top-right-radius: 0;
       overflow: hidden;
       text-overflow: ellipsis;
+      height: 75px;
+      font-size: 130%;
     }
 
     .btn-ys {
-      background-color: #5bc0de;
+      background-color: $mssBlue;
     }
     .img-ys {
-      border: 7px solid #5bc0de;
+      border: 7px solid $mssBlue;
     }
 
     .btn-ml {
-      background-color: #5cb85c;
+      background-color: $mssGold;
     }
     .img-ml {
-      border: 7px solid #5cb85c;
+      border: 7px solid $mssGold;
     }
 
   }
