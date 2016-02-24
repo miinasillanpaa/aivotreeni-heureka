@@ -94,13 +94,18 @@ header {
     }
   }
 
-  .badges img{
-
-    &:hover{
-      opacity: 0.9;
+  .badges{
+    div {
+      text-align: center;
+      margin-bottom: 10px;
+    }
+    img{
+      &:hover{
+        opacity: 0.9;
+      }
     }
   }
-
+  
   .image-button-block {
     cursor: pointer;
     padding-bottom: 30px;
